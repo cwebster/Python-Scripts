@@ -12,6 +12,7 @@ import plotly.graph_objects as go
 import webbrowser
 import WebsterChemistryReporting as chem
 import WebsterHaematologyReporting as haem
+import WebsterBloodBankReporting as bloodbank
 
 #chrome_path="C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 #webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path))
@@ -51,7 +52,9 @@ haem_reports.createPlots()
 
 
 # Build Blood Bank
-
+bloodbank_reports = bloodbank.WebsterBloodBankReporting(processor)
+bloodbank_reports.prepareTests()
+bloodbank_reports.createPlots()
 
 # all_tests = processor.total_tests_cleaned.groupby('Test_Code')['Workload'].sum()
 # all_tests = all_tests.to_frame()
