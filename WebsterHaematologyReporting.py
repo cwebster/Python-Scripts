@@ -13,8 +13,8 @@ class WebsterHaematologyReporting(WebsterPlotting):
          self.qe_total = self.processor.total_haematology_qe.groupby('Test_Code')['Workload'].sum().to_frame().sort_values(by=['Workload']).nlargest(20, 'Workload')
             
          self.total_by_quarter = self.processor.total_haematology.groupby('Quarter')['Workload'].sum().to_frame()
-         self.qe_total_by_quarter = self.processor.total_haematology_hgs.groupby('Quarter')['Workload'].sum().to_frame()
-         self.hgs_total_by_quarter = self.processor.total_haematology_qe.groupby('Quarter')['Workload'].sum().to_frame()
+         self.qe_total_by_quarter = self.processor.total_haematology_qe.groupby('Quarter')['Workload'].sum().to_frame()
+         self.hgs_total_by_quarter = self.processor.total_haematology_hgs.groupby('Quarter')['Workload'].sum().to_frame()
          
     def createPlots(self):
         specs=[[{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}]]
