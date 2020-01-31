@@ -1,0 +1,105 @@
+/Users/craigwebster/Python-Scripts/testing_files/heartlands-2017-2018.xlsx
+/Users/craigwebster/Python-Scripts/testing_files/qe-2017-2018.xlsx
+
+
+
+
+chemistry_subplot = make_subplots(rows=2, cols=2,
+    specs=[[{"type": "table"}, {"type": "bar"}],
+           [{"type": "bar"}, {"type": "bar"}],])
+
+chemistry_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_subplot,
+                                                     row = 1,
+                                                     col = 2,
+                                                     x_data = all_tests.index.values, 
+                                                     y_data = all_tests.Workload.values, 
+                                                     name = "Total Workload by Test")
+
+chemistry_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_subplot,
+                                                     row = 2,
+                                                     col = 1,
+                                                     x_data = chemistry_tests_hgs_total.index.values ,
+                                                     y_data = chemistry_tests_hgs_total.Workload.values,
+                                                     name = "Total Workload by Test HGS")
+
+chemistry_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_subplot,
+                                                     row = 2,
+                                                     col = 2,
+                                                     x_data = chemistry_tests_qe_total.index.values ,
+                                                     y_data = chemistry_tests_qe_total.Workload.values,
+                                                     name = "Total Workload by Test QE")
+
+chemistry_subplot = chemistry_subplot.add_trace(
+        go.Table(
+                header=dict(values=["Test", "Workload"],
+                            fill_color='paleturquoise',
+                            align='left'),
+                            cells=dict(values=[chemistry_tests_total.index.values,
+                                               chemistry_tests_total.Workload],
+                            fill_color='lavender',
+                            align='left')), row = 1, col = 1
+                )
+
+chemistry_subplot.update_layout(title_text="Data Analysis For Chemistry")
+
+chemistry_by_quarter_subplot = make_subplots(rows=4, cols=2,
+    specs=[[{"type": "table"}, {"type": "table"}],
+           [{"type": "table"}, {"type": "table"}],
+           [{"type": "bar"}, {"type": "bar"}],
+           [{"type": "bar"}, {"type": "bar"}],])
+                
+chemistry_by_quarter_subplot.update_layout(title_text="Data Analysis For Chemistry")
+
+chemistry_by_quarter_subplot.add_trace(
+        go.Table(
+                header=dict(values=["Quarter", "Workload"],
+                            fill_color='paleturquoise',
+                            align='left'),
+                            cells=dict(values=[chemistry_tests_total_by_quarter.index.values,
+                                               chemistry_tests_total_by_quarter.Workload],
+                            fill_color='lavender',
+                            align='left')), row = 1, col = 1
+                )
+                
+chemistry_by_quarter_subplot.add_trace(
+        go.Table(
+                header=dict(values=["Quarter", "Workload"],
+                            fill_color='paleturquoise',
+                            align='left'),
+                            cells=dict(values=[chemistry_tests_hgs_total_by_quarter.index.values,
+                                               chemistry_tests_hgs_total_by_quarter.Workload],
+                            fill_color='lavender',
+                            align='left')), row = 2, col = 1
+                            )
+
+chemistry_by_quarter_subplot.add_trace(
+        go.Table(
+                header=dict(values=["Quarter", "Workload"],
+                            fill_color='paleturquoise',
+                            align='left'),
+                            cells=dict(values=[chemistry_tests_qe_total_by_quarter.index.values,
+                                               chemistry_tests_qe_total_by_quarter.Workload],
+                            fill_color='lavender',
+                            align='left')), row = 2, col = 2
+                            )
+
+chemistry_by_quarter_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_by_quarter_subplot,
+                                                     row = 3,
+                                                     col = 1,
+                                                     x_data = chemistry_tests_total_by_quarter.index.values, 
+                                                     y_data = chemistry_tests_total_by_quarter.Workload.values, 
+                                                     name = "Total by Quarter")
+
+chemistry_by_quarter_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_by_quarter_subplot,
+                                                     row = 4,
+                                                     col = 1,
+                                                     x_data = chemistry_tests_hgs_total_by_quarter.index.values, 
+                                                     y_data = chemistry_tests_hgs_total_by_quarter.Workload.values, 
+                                                     name = "Total HGS by Quarter")
+
+chemistry_by_quarter_subplot = wc.WebsterCharting.addSubBarPlot(chemistry_by_quarter_subplot,
+                                                     row = 4,
+                                                     col = 2,
+                                                     x_data = chemistry_tests_qe_total_by_quarter.index.values, 
+                                                     y_data = chemistry_tests_qe_total_by_quarter.Workload.values, 
+                                                     name = "Total QE by Quarter")
