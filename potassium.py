@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 """
 Potassium Analysis
+Loads SQL File and creates a DF from both telepath systems
 
 Created on Tue Dec 24 11:44:15 2019
 
-@author: webstec
+@author: Craig Webster
 """
 import pyodbc
 import pandas as pd
 
 # Connect to datasource
-conn=pyodbc.connect('DSN=QE Telepath', autocommit=True)
-conn1=pyodbc.connect('DSN=Heartlands Telepath', autocommit=True)
+conn = pyodbc.connect('DSN=QE Telepath', autocommit=True)
+conn1 = pyodbc.connect('DSN=Heartlands Telepath', autocommit=True)
 
 # Open and read the file as a single buffer
 fd = open('C:/Users/Public/SQL-Scripts/potassium.sql', 'r')
