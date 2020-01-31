@@ -13,86 +13,10 @@ class WebsterHaematologyReporting(WebsterPlotting):
          self.qe_total = self.processor.total_haematology_qe.groupby('Test_Code')['Workload'].sum().to_frame().sort_values(by=['Workload']).nlargest(20, 'Workload')
             
          self.total_by_quarter = self.processor.total_haematology.groupby('Quarter')['Workload'].sum().to_frame()
-         self.qe_total_by_quarter = self.processor.total_haematology_hgs.groupby('Quarter')['Workload'].sum().to_frame()
-         self.hgs_total_by_quarter = self.processor.total_haematology_qe.groupby('Quarter')['Workload'].sum().to_frame()
+         self.qe_total_by_quarter = self.processor.total_haematology_qe.groupby('Quarter')['Workload'].sum().to_frame()
+         self.hgs_total_by_quarter = self.processor.total_haematology_hgs.groupby('Quarter')['Workload'].sum().to_frame()
          
-    def createPlots(self):
-        specs=[[{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}]]
-    
-        # Workload by test bar charts
-        dataset = []
-        total_data_set = {'x_data': self.tests_total.index.values, 
-                          'y_data': self.tests_total.Workload.values,
-                          'name': "Total Workload by Test",
-                          'type' : "bar"}
-        
-        hgs_data_set = {'x_data': self.hgs_total.index.values, 
-                        'y_data': self.hgs_total.Workload.values,
-                        'name': "Total Workload by Test HGS",
-                        'type' : "bar"}
-        
-        qe_data_set = {'x_data': self.qe_total.index.values, 
-                       'y_data': self.qe_total.Workload.values,
-                       'name': "Total Workload by Test QE",
-                       'type' : "bar"}
+         self.createPlots()
          
-
-        dataset.append(total_data_set)
-        dataset.append(hgs_data_set)
-        dataset.append(qe_data_set)
-
-        self.totals_subplot = self.createTotalByTestPlots(dataset, specs)
-
-# total workload tables
-        total_data_set_by_q = {'x_data': self.total_by_quarter.index.values, 
-                          'y_data': self.total_by_quarter.Workload.values,
-                          'name': "Total Workload by Quarter",
-                          'type' : "table"}
-        
-        hgs_data_set_by_q = {'x_data': self.hgs_total_by_quarter.index.values, 
-                        'y_data': self.hgs_total_by_quarter.Workload.values,
-                        'name': "Total Workload by Quarter HGS",
-                        'type' : "table"}
-        
-        qe_data_set_by_q = {'x_data': self.qe_total_by_quarter.index.values, 
-                       'y_data': self.qe_total_by_quarter.Workload.values,
-                       'name': "Total Workload by Quarter QE",
-                       'type' : "table"}
-
-        dataset2 = []
-        dataset2.append(total_data_set_by_q)
-        dataset2.append(hgs_data_set_by_q)
-        dataset2.append(qe_data_set_by_q)
-        
-        specs=[[{"type": "table"}, {"type": "table"}], [{"type": "table"}, {"type": "table"}], [{"type": "table"}, {"type": "table"}]]
-        
-        self.by_quarter_suplot = self.createTotalByTestPlots(dataset2, specs)
-
-# Total Workload by Quarter bars
-        total_data_set_by_q = {'x_data': self.total_by_quarter.index.values, 
-                          'y_data': self.total_by_quarter.Workload.values,
-                          'name': "Total Workload by Quarter",
-                          'type' : "bar"}
-        
-        hgs_data_set_by_q = {'x_data': self.hgs_total_by_quarter.index.values, 
-                        'y_data': self.hgs_total_by_quarter.Workload.values,
-                        'name': "Total Workload by Quarter HGS",
-                        'type' : "bar"}
-        
-        qe_data_set_by_q = {'x_data': self.qe_total_by_quarter.index.values, 
-                       'y_data': self.qe_total_by_quarter.Workload.values,
-                       'name': "Total Workload by Quarter QE",
-                       'type' : "bar"}
-        
-
-        dataset3 = []
-        dataset3.append(total_data_set_by_q)
-        dataset3.append(hgs_data_set_by_q)
-        dataset3.append(qe_data_set_by_q)
-
-        specs=[[{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}], [{"type": "bar"}, {"type": "bar"}]]
-
-        self.by_quarter_bars = self.createTotalByTestPlots(dataset3, specs)
-
-        self.totals_subplot.update_layout(title_text="Data Analysis For Haematology")
-        self.by_quarter_suplot.update_layout(title_text="Data Analysis by Quarter For Haematology")
+         self.totals_subplot.update_layout(title_text="Data Analysis For Haematology")
+         self.by_quarter_suplot.update_layout(title_text="Data Analysis by Quarter For Haematology")
