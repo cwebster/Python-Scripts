@@ -3,7 +3,7 @@
 Created on Thu Jan 16 12:08:52 2020
 
 @author: cgwr
-"""
+file:///C:/Users/Public/NHSI/qe-2019.xlsx"""
 
 #Set up
 import plotly.io as pio
@@ -14,8 +14,8 @@ import WebsterChemistryReporting as chem
 import WebsterHaematologyReporting as haem
 import WebsterBloodBankReporting as bloodbank
 
-#chrome_path="C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-#webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path))
+chrome_path="C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path))
 pio.renderers.default = "chrome"
 
 import annual_return as ar
