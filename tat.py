@@ -24,7 +24,7 @@ fd.close()
 data = pd.read_sql_query(sql, conn)
 
 # percentile list 
-perc =[.5, .25, .75, .95] 
+perc =[.5, .25, .50, .75, .95] 
 
 desc = data.describe(percentiles = perc) 
 
@@ -39,6 +39,7 @@ data['TAT_Reception'] = (data.Date_Time_Booked_In - data.Date_Time_Collected).as
 data['TAT_Transport'] = (data.Date_Time_Received - data.Date_Time_Collected).astype('timedelta64[m]')
 
 x = data.groupby('Date_Received')
+desc = x.describe(percentiles = perc)
 
 
 # Create excel spreadsheets
