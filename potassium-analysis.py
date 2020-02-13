@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*- s
 """
 Potassium Analysis
 Loads SQL File and creates a DF from both telepath systems
@@ -13,14 +13,10 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import webbrowser
 from plotly.subplots import make_subplots
-
-
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import base64
 import numpy as np
-
 from io import BytesIO
 
 # Setup of envrionment
