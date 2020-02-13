@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*- s
 """
 Potassium Analysis
 Loads SQL File and creates a DF from both telepath systems
@@ -14,7 +14,6 @@ import plotly.io as pio
 import webbrowser
 from plotly.subplots import make_subplots
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import base64
 import numpy as np
@@ -37,10 +36,13 @@ pd.set_option("display.max_rows", 25)
 hgs_file = r"hgs_k.csv"
 qe_file = r"qe_k.csv"
 
-qe, hgs = PotassiumReportingFunctions.process_input(hgs_file, qe_file)
+qe, hgs = process_input(hgs_file, qe_file)
 
 # Flattens the DF into another DF with no Multiindex
-df_grouped_hgs = hgs.groupby(["LOC", "FDR"], as_index=False)['K'].describe()
+df_grouped_hgs = hgs.groupby(["LOC", "FDR"])
+
+df = df_grouped_hgs.K.value_counts(normalize=True).reset_index(name='frequency')
+boxplot = df.boxplot(by='LOC')
 
 # For descriptive statistics
 df_grouped_hgs = qe.groupby(["FDR", "LOC"])['NewK'].describe()
