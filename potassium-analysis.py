@@ -40,7 +40,7 @@ qe_file = r"qe_k.csv"
 qe, hgs = PotassiumReportingFunctions.process_input(hgs_file, qe_file)
 
 # Flattens the DF into another DF with no Multiindex
-df_grouped_hgs = hgs.groupby(["FDR", "LOC"], as_index=False)['K'].describe()
+df_grouped_hgs = hgs.groupby(["LOC", "FDR"], as_index=False)['K'].describe()
 
 # For descriptive statistics
 df_grouped_hgs = qe.groupby(["FDR", "LOC"])['NewK'].describe()
