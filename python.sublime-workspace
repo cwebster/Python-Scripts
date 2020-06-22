@@ -1,0 +1,923 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rew",
+				"reviewed"
+			],
+			[
+				"ca",
+				"class\tAttr"
+			],
+			[
+				"sear",
+				"search_query"
+			],
+			[
+				"res",
+				"rescue_from"
+			],
+			[
+				"sta",
+				"state_of_well_being"
+			],
+			[
+				"ana",
+				"analyte"
+			],
+			[
+				"anal",
+				"analyte"
+			],
+			[
+				"un",
+				"unless\tunless … end"
+			],
+			[
+				"est",
+				"estimates_of_cvg"
+			],
+			[
+				"df",
+				"df_between"
+			],
+			[
+				"fin",
+				"finv"
+			],
+			[
+				"em",
+				"emsa"
+			],
+			[
+				"ems",
+				"emsw"
+			],
+			[
+				"w3",
+				"w3u"
+			],
+			[
+				"in",
+				"infinity"
+			],
+			[
+				"df_",
+				"df_between"
+			],
+			[
+				"by",
+				"by_journal"
+			],
+			[
+				"year",
+				"year_of_publication"
+			],
+			[
+				"rev",
+				"review"
+			],
+			[
+				"link",
+				"link_to_spanish_database"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"Prime",
+				"PrimeContractor"
+			],
+			[
+				"save",
+				"save_import"
+			],
+			[
+				"analyte",
+				"analyte_id"
+			],
+			[
+				"page",
+				"page_title"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"unit",
+				"unit_name"
+			],
+			[
+				"prime",
+				"prime_contractor"
+			],
+			[
+				"ret",
+				"return_rate"
+			],
+			[
+				"ts",
+				"test_code"
+			],
+			[
+				"prim",
+				"prime_contractor_id"
+			],
+			[
+				"actv",
+				"active_meters"
+			],
+			[
+				"meter",
+				"meter_performances"
+			],
+			[
+				"summar",
+				"summary_report_content"
+			],
+			[
+				"lo",
+				"logFetch"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ur",
+				"url_to"
+			],
+			[
+				"get",
+				"getProcessedData"
+			],
+			[
+				"da",
+				"dta"
+			],
+			[
+				"mete",
+				"meter_performance_id"
+			],
+			[
+				"eqa",
+				"eqa_id"
+			],
+			[
+				"dis",
+				"distribution_close_date"
+			],
+			[
+				"ser",
+				"serialize_models"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"repertoire",
+				"repertoire_lookups"
+			],
+			[
+				"lab",
+				"laboratory_id"
+			],
+			[
+				"local",
+				"local_repertoire"
+			],
+			[
+				"no",
+				"no_records"
+			],
+			[
+				"laborr",
+				"laboratories"
+			],
+			[
+				"labora",
+				"laboratory"
+			],
+			[
+				"labo",
+				"laboratory"
+			],
+			[
+				"laboratory",
+				"laboratory_test_id"
+			],
+			[
+				"laborato",
+				"laboratory_test_id"
+			],
+			[
+				"labor",
+				"laboratory_test_id"
+			],
+			[
+				"la",
+				"laboratorytest"
+			],
+			[
+				"l",
+				"laboratorytest"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"Mat",
+				"matrices_id"
+			],
+			[
+				"E",
+				"Ethinicity"
+			],
+			[
+				"image",
+				"image_tag\tcreate a image\terb"
+			],
+			[
+				"state_of_well_being_",
+				"state_of_well_being_descriptor"
+			],
+			[
+				"eth",
+				"ethinicity"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"ac",
+				"access_token"
+			],
+			[
+				"user",
+				"user_group_id"
+			],
+			[
+				"user_",
+				"user_group"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"attr",
+				"attribute"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"if",
+				"if\tif … end"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"post",
+				"postcode"
+			],
+			[
+				"po",
+				"postcode"
+			],
+			[
+				"add",
+				"address3"
+			],
+			[
+				"ad",
+				"address1"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"me",
+				"methodology"
+			],
+			[
+				"rep",
+				"repertoire"
+			],
+			[
+				"repe",
+				"repertoire"
+			],
+			[
+				"waiting",
+				"waiting_for_update"
+			],
+			[
+				"laborat",
+				"laboratories"
+			],
+			[
+				"waiti",
+				"waiting_for_updated_information"
+			],
+			[
+				"div",
+				"div_id"
+			],
+			[
+				"le",
+				"laboratories"
+			],
+			[
+				"cha",
+				"chart_title"
+			],
+			[
+				"tr",
+				"trim_data_point"
+			],
+			[
+				"ini",
+				"init_new_data_table"
+			],
+			[
+				"poin",
+				"point_value"
+			],
+			[
+				"data",
+				"data_point"
+			],
+			[
+				"heft",
+				"heft_id"
+			],
+			[
+				"he",
+				"heftpathology_investigtion"
+			],
+			[
+				"price",
+				"price_record"
+			],
+			[
+				"cos",
+				"cost_centre_code"
+			],
+			[
+				"pr",
+				"price_type"
+			],
+			[
+				"gl",
+				"global_investigation_name"
+			],
+			[
+				"glo",
+				"global_investigation_code"
+			],
+			[
+				"loca",
+				"local_investigation_code"
+			],
+			[
+				"mo",
+				"Migration"
+			],
+			[
+				"cus",
+				"customer_longitude"
+			],
+			[
+				"driv",
+				"driver_journey"
+			],
+			[
+				"cu",
+				"customer_latitude"
+			],
+			[
+				"dri",
+				"driver_journey"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"driver",
+				"driver_home"
+			],
+			[
+				"to",
+				"to_boolean"
+			],
+			[
+				"to_",
+				"to_airport"
+			],
+			[
+				"air",
+				"airport"
+			],
+			[
+				"ma",
+				"matching_airports"
+			],
+			[
+				"star",
+				"start_time"
+			],
+			[
+				"airport",
+				"airport_id"
+			],
+			[
+				"cust",
+				"customer_location"
+			],
+			[
+				"des",
+				"destination"
+			],
+			[
+				"def",
+				"def\tdef … end"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inte",
+				"Open IPython Notebook"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"conda",
+				"Conda: Install Package"
+			],
+			[
+				"impo",
+				"Python Fix Imports"
+			],
+			[
+				"term",
+				"Open Terminal at Project"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"mig",
+				"Migrations list"
+			],
+			[
+				"rail",
+				"Migrations list"
+			],
+			[
+				"mi",
+				"Migrations list"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"m",
+				"Migrations list"
+			],
+			[
+				"pa",
+				"Rails Partial: Create Partial from Text"
+			],
+			[
+				"",
+				"Migrations list"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sear",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"papart",
+				"Rails Partial: Create Partial and Open"
+			],
+			[
+				"part",
+				"Rails Partial: Create Partial and Open"
+			],
+			[
+				"migr",
+				"Migrations list"
+			],
+			[
+				"par",
+				"Rails Partial: Create Partial and Open"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"rub",
+				"Rubycritic : New critic and open in browser"
+			],
+			[
+				"page",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack\t",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"os.system(\"rubycritic\")",
+			"import os",
+			"os.system(\"rubycritic\")",
+			"import os",
+			"os.system(\"rubycritic\")",
+			"import os",
+			"os.system(\"rubycritic\")",
+			"import os",
+			"os.system(\"rubycritic\")",
+			"import os",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/webstec/Python-Scripts"
+	],
+	"file_history":
+	[
+		"/Users/webstec/Python-Scripts/python.sublime-project",
+		"/Users/webstec/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/webstec/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/webstec/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/webstec/Library/Application Support/Sublime Text 3/Packages/Conda/Conda.sublime-settings",
+		"/Users/webstec/Library/Application Support/Sublime Text 3/Packages/User/Conda.sublime-settings",
+		"/Users/webstec/bv-react/src/pages/index.html",
+		"/Users/webstec/bv-react/src/index.html",
+		"/Users/webstec/bv-react/src/js/components/presentational/Input.jsx",
+		"/Users/webstec/bv-react/src/js/components/container/FormContainer.jsx",
+		"/Users/webstec/bv-react/webpack.config.js",
+		"/Users/webstec/bv-react/.babelrc",
+		"/Users/webstec/bv-react/webpack.config.js ",
+		"/var/folders/xl/87gz7zhn7yd1f8059h3x1n55pd0xzw/T/kite_tutorial.py",
+		"/Users/webstec/bv/app/jobs/calc_meta_job.rb",
+		"/Users/webstec/bv/lib/error/helpers/render.rb",
+		"/Users/webstec/bv/app/views/bv_specifications/export.xlsx.axlsx",
+		"/Users/webstec/bv/config/routes.rb",
+		"/Users/webstec/bv/app/views/layouts/_sidebar.html.erb",
+		"/Users/webstec/bv/app/controllers/bv_specifications_controller.rb",
+		"/Users/webstec/bv/app/controllers/units_controller.rb",
+		"/Users/webstec/bv/app/models/bv_specification.rb",
+		"/Users/webstec/bv/app/views/units/index.html.erb",
+		"/Users/webstec/bv/app/views/bv_specifications/manage.html.erb",
+		"/Users/webstec/bv/app/controllers/search_controller.rb",
+		"/Users/webstec/bv/app/assets/javascripts/autocomplete.js",
+		"/Users/webstec/bv/app/controllers/analytes_controller.rb",
+		"/Users/webstec/bv/app/controllers/concerns/error_handler.rb",
+		"/Users/webstec/bv/app/controllers/application_controller.rb",
+		"/Users/webstec/bv/app/views/home/index.html.erb",
+		"/Users/webstec/bv/config/application.rb",
+		"/Users/webstec/bv/app/admin/analyte.rb",
+		"/Users/webstec/bv/db/migrate/20190711195007_addmeasuranddisplay.rb",
+		"/Users/webstec/bv/db/migrate/20190519113432_alterfeature.rb",
+		"/Users/webstec/bv/app/views/layouts/_page_footer.erb",
+		"/Users/webstec/bv/lib/error_handler.rb",
+		"/Users/webstec/SQL-Scripts/ed-kpi-2019.sql",
+		"/Users/webstec/Q.sql",
+		"/Users/webstec/Dropbox/ed_query.sql",
+		"/Users/webstec/Dropbox/ed_analysis.r",
+		"/Users/webstec/bv/app/models/meta_calculation.rb",
+		"/Users/webstec/bv/db/migrate/20190430160412_alterneta.rb",
+		"/Users/webstec/bv/db/migrate/20190430141521_createmeta.rb",
+		"/Users/webstec/bv/db/migrate/20190430161731_alternetaaddanalyte.rb",
+		"/Users/webstec/bv/app/models/meta.rb",
+		"/Users/webstec/bv/db/migrate/20190415215305_freezeci.rb",
+		"/Users/webstec/bv/db/migrate/20190422221705_fix.rb",
+		"/Users/webstec/bv/db/migrate/20180415132416_create_analytcal_methods.rb",
+		"/Users/webstec/bv/db/migrate/20190422121810_create_contents.rb",
+		"/Users/webstec/Desktop/cache2",
+		"/Users/webstec/bolton-eqa/config/database.yml",
+		"/Users/webstec/bv/lib/meta_analysis.rb",
+		"/Users/webstec/bv/lib/confidence_intervals.rb",
+		"/Users/webstec/bv/app/assets/javascripts/plugins/ckeditor/ckeditor.js",
+		"/Users/webstec/bv/lib/r_scripts/meta.R",
+		"/Users/webstec/bv/config/deploy/staging.rb",
+		"/Users/webstec/bv/config/elastic_apm.yml",
+		"/Users/webstec/bv/app/models/reference.rb",
+		"/Users/webstec/bv/app/admin/reference.rb",
+		"/Users/webstec/bv/app/views/admin/references/export.xlsx.axlsx",
+		"/Users/webstec/bv/Gemfile",
+		"/Users/webstec/bv/db/migrate/20190310211504_removeredundantfields.rb",
+		"/Users/webstec/bv/db/migrate/20190227211022_droplinktospanish.rb",
+		"/Users/webstec/bv/app/views/bv_specifications/_item_fields.html.erb",
+		"/Users/webstec/bv/app/views/layouts/_new_menu.html.erb",
+		"/Users/webstec/Desktop/user.csv",
+		"/Users/webstec/bv/app/views/bv_specifications/_measurand_show_table.html.erb",
+		"/Users/webstec/bolton-eqa/app/models/label.rb",
+		"/Users/webstec/bolton-eqa/app/controllers/concerns/labels.rb",
+		"/Users/webstec/bv/app/models/csv_import.rb",
+		"/Users/webstec/bv/app/models/overall_principle_method.rb",
+		"/Users/webstec/bv/app/views/admin/overall_principle_methods/import_csv_file.html.erb",
+		"/Users/webstec/bv/app/views/admin/overall_principle_methods/import_csv.html.erb",
+		"/Users/webstec/bv/app/admin/overall_principle_method.rb",
+		"/Users/webstec/bv/app/models/principle_reagent.rb",
+		"/Users/webstec/bv/app/models/principle_method.rb",
+		"/Users/webstec/bv/app/models/principle_instrument.rb",
+		"/Users/webstec/bv/app/policies/principle_instrument_policy.rb",
+		"/Users/webstec/bv/app/policies/principle_reagent_policy.rb",
+		"/Users/webstec/bv/app/policies/principle_method_policy.rb",
+		"/Users/webstec/bv/app/policies/overall_principle_method_policy.rb",
+		"/Users/webstec/bv/app/admin/principle_reagent.rb",
+		"/Users/webstec/bv/db/migrate/20180513110505_methods.rb",
+		"/Users/webstec/bv/app/admin/principle_method.rb",
+		"/Users/webstec/bv/app/admin/principle_instrument.rb",
+		"/Users/webstec/bv/db/migrate/20180415142001_correctspeling.rb",
+		"/Users/webstec/bv/db/migrate/20180415142551_bv_belongs_to_analytical_method.rb",
+		"/Users/webstec/bv/app/views/layouts/_page_header.html.erb",
+		"/Users/webstec/bv/app/helpers/bv_specification_helper.rb",
+		"/Users/webstec/bv/db/migrate/20170815163638_addextratobv.rb",
+		"/Users/webstec/bv/app/assets/stylesheets/application.scss",
+		"/Users/webstec/bv/app/views/home/_hero_carousel.html.erb",
+		"/Users/webstec/bv/app/assets/stylesheets/jednotka/theme/structure/_navigation.scss",
+		"/Users/webstec/send-away/app/assets/javascripts/application.js",
+		"/Users/webstec/bv/app/views/layouts/application.html.erb",
+		"/Users/webstec/bv/app/views/bv_specifications/_scoring_fields.html.erb",
+		"/Users/webstec/bv/db/migrate/20170815160404_confidenceintervals.rb",
+		"/Users/webstec/bv/config/environments/development.rb",
+		"/Users/webstec/bv/db/migrate/20170815154040_addunitsfieldtobvspecification.rb",
+		"/Users/webstec/bv/app/models/unit.rb",
+		"/Users/webstec/bv/config/puma.rb",
+		"/Users/webstec/bv/db/migrate/20170815153517_addunitstable.rb",
+		"/Users/webstec/bv/db/migrate/20170529131603_add_confirmable_to_devise1.rb",
+		"/Users/webstec/bv/config/database.yml",
+		"/Users/webstec/bolton-eqa/app/admin/subscription_information.rb",
+		"/Users/webstec/bolton-eqa/app/views/meters/_meters_table.erb",
+		"/Users/webstec/bolton-eqa/app/models/distribution_result.rb",
+		"/Users/webstec/bolton-eqa/app/admin/distribution_result.rb",
+		"/Users/webstec/bolton-eqa/app/serializers/meter_performance_serializer.rb",
+		"/Users/webstec/bolton-eqa/app/serializers/hash_serializer.rb",
+		"/Users/webstec/bolton-eqa/app/assets/javascripts/poor_performers.js",
+		"/Users/webstec/bolton-eqa/app/assets/javascripts/non_returners.js",
+		"/Users/webstec/bolton-eqa/config/initializers/assets.rb",
+		"/Users/webstec/bolton-eqa/app/views/admin/prime_contractors/generate_invoice_excel.html.erb",
+		"/Users/webstec/bolton-eqa/app/views/admin/prime_contractors/generate_invoice.html.erb",
+		"/Users/webstec/bolton-eqa/app/admin/prime_contractor.rb",
+		"/Users/webstec/bolton-eqa/app/views/V2/prime_contractors/_summary_report.js.erb",
+		"/Users/webstec/bolton-eqa/app/views/layouts/_minimal.html.erb",
+		"/Users/webstec/bolton-eqa/app/views/admin/users/email_users_custom_message.html.erb",
+		"/Users/webstec/bolton-eqa/app/admin/user.rb",
+		"/Users/webstec/bolton-eqa/app/views/home/how_to_guides.html.erb",
+		"/Users/webstec/bolton-eqa/app/views/home/faq.html.erb",
+		"/Users/webstec/bolton-eqa/app/views/distribution_results/open_distribution_results.html.erb",
+		"/Users/webstec/bolton-eqa/app/views/distribution_results/update_error.js.erb",
+		"/Users/webstec/bolton-eqa/app/views/shared/_meter_pef_over_time_data.html.erb",
+		"/Users/webstec/bolton-eqa/app/models/meter_performance.rb",
+		"/Users/webstec/bolton-eqa/app/controllers/user_controller.rb",
+		"/Users/webstec/bolton-eqa/app/controllers/concerns/user_reports.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 259.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "python.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 412.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
