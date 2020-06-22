@@ -18,7 +18,6 @@ hgs_file = r"hgs_k.csv"
 
 qe_file = r"qe_k.csv"
 
-
 df_qe = pd.read_csv(qe_file, na_values=['.'], sep=";", engine='python')
 df_hgs = pd.read_csv(hgs_file, na_values=['.'], sep=";", engine='python')
 
